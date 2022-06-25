@@ -1,0 +1,13 @@
+//using enhanced-for loop to iterate over two dimensional ArrayList
+List<List<T>> items = new ArrayList<>(Arrays.asList(
+                        Arrays.asList(T ...items),
+                		Arrays.asList(T ...items1),
+  						Arrays.asList(T ...items2)
+					));
+
+for (List<T> arr : items) {
+    for (T item : arr) {
+        System.out.print(item + " ");
+    }
+   System.out.println();
+ }
